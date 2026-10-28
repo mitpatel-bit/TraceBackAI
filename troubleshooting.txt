@@ -1,0 +1,67 @@
+
+TOPIC: High CPU Usage
+
+PROBLEM:
+CPU usage suddenly increases above normal levels.
+
+POSSIBLE CAUSES:
+1. Too many applications are running.
+2. A process is stuck in a loop.
+3. A background task is consuming excessive resources.
+
+TROUBLESHOOTING:
+1. Check which processes use the most CPU.
+2. Review system logs around the time of the increase.
+3. Check whether the problem started after a software update.
+4. Stop or restart a confirmed problematic process only when safe.
+
+TOPIC: Slow Server Response
+
+PROBLEM:
+Server response time becomes unusually high.
+
+POSSIBLE CAUSES:
+1. High CPU or memory usage.
+2. Slow database queries.
+3. Network delays.
+4. Too many simultaneous requests.
+
+TROUBLESHOOTING:
+1. Compare response times with CPU and memory metrics.
+2. Review server and database logs.
+3. Check network connectivity and latency.
+4. Identify whether the delay affects all requests or only certain requests.
+
+TOPIC: Database Connection Failed
+
+PROBLEM:
+The application cannot connect to its database.
+
+POSSIBLE CAUSES:
+1. The database service is unavailable.
+2. The connection settings are incorrect.
+3. Network connectivity is interrupted.
+4. The database has reached its connection limit.
+
+TROUBLESHOOTING:
+1. Check whether the database service is running.
+2. Verify the database host, port, and connection settings.
+3. Review database logs for connection errors.
+4. Check network access and connection limits.
+
+TOPIC: Server Timeout
+
+PROBLEM:
+A request takes too long and times out.
+
+POSSIBLE CAUSES:
+1. Server overload.
+2. Slow database operations.
+3. Network delays.
+4. An external service is not responding.
+
+TROUBLESHOOTING:
+1. Check server resource usage.
+2. Review logs around the timeout.
+3. Measure database query duration.
+4. Check the availability of dependent services.
